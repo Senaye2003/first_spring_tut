@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class AgeController {
-    @GetMapping (path = "/hello")
+    @GetMapping (path = "/age")
     public int age(){
         return 12;
     }
